@@ -444,7 +444,7 @@ const Portfolio = () => {
       name: 'Venkatesh D',
       tagline: 'Data Science Innovator & AI/ML Enthusiast',
       education: 'MSc Data Science @ Coimbatore Institute of Technology',
-      email: 'venkatesdhanabalan06@gmail.com',
+      email: 'venkateshdhanabalan056@gmail.com',
       phone: '+91 8667794170',
       location: 'Coimbatore, Tamil Nadu, India',
       skills,
@@ -1202,8 +1202,8 @@ const Portfolio = () => {
                 </div>
                 <div className="contact-details">
                   <p className="contact-label">Email</p>
-                  <a href="mailto:venkatesdhanabalan06@gmail.com" className="contact-value">
-                    venkatesdhanabalan06@gmail.com
+                  <a href="mailto:venkateshdhanabalan056@gmail.com" className="contact-value">
+                    venkateshdhanabalan056@gmail.com
                   </a>
                 </div>
               </div>
