@@ -1,0 +1,12 @@
+node_modules
+
+/mine
+
+.env
+**/.env
+
+__pycache__/
+**/__pycache__/
+*.pyc
+
+backend_py/.cache/

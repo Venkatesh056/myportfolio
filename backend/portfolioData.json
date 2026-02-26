@@ -1,0 +1,85 @@
+{
+  "name": "Venkatesh D",
+  "tagline": "Data Science Innovator & AI/ML Enthusiast",
+  "education": "MSc Data Science @ Coimbatore Institute of Technology",
+  "email": "venkatesdhanabalan06@gmail.com",
+  "phone": "+91 8667794170",
+  "location": "Coimbatore, Tamil Nadu, India",
+  "skills": [
+    "Python", "PyTorch", "TensorFlow", "SQL", "React", "OpenCV", "GNN", "Computer Vision", "NLP", "REST APIs", "PostgreSQL", "Firebase"
+  ],
+  "projects": [
+    {
+      "title": "MYTHOVERSE AI",
+      "subtitle": "AI-Powered Cultural World Mythology & Tamil Heritage Storytelling Engine",
+      "description": "Generative AI platform that creates culturally rich mythology and historical stories across Indian and global traditions. The system uses Hugging Face language models for narrative generation and OpenAI-powered image generation to produce immersive, age-adaptive stories accompanied by visually rich artwork.",
+      "highlights": [
+        "LLM-powered story generation using Hugging Face models",
+        "AI-generated illustrations via OpenAI image APIs",
+        "Supports Indian mythology, regional history, and global legends",
+        "Age-adaptive storytelling: kids, teens, and adults",
+        "Multi-language support with cultural context preservation",
+        "Outputs stories as web experiences, PDFs, and audio-ready formats"
+      ],
+      "impact": "Transforms cultural heritage into scalable, engaging AI-driven storytelling experiences for education, preservation, and global audiences"
+    },
+    {
+      "title": "TRI-BIOMETRIX",
+      "subtitle": "Next-Gen Multimodal Security Platform",
+      "description": "Cutting-edge security system combining facial recognition, voice biometrics, and hand-gesture verification for impenetrable three-factor authentication.",
+      "highlights": [
+        "Triple-layer biometric verification",
+        "99.2% authentication accuracy",
+        "Anti-spoofing technology integrated",
+        "Banking, healthcare & smart surveillance ready"
+      ],
+      "impact": "95% reduction in unauthorized access"
+    },
+    {
+      "title": "NETRATAX",
+      "subtitle": "AI-Powered Tax Fraud Detection System",
+      "description": "Revolutionary AI system leveraging Graph Neural Networks to combat financial fraud at scale. Analyzes complex invoice networks and identifies shell companies with unprecedented accuracy.",
+      "highlights": [
+        "87% fraud detection accuracy with <5% false positives",
+        "Processes 10,000+ invoice networks in real-time",
+        "Automated graph construction & risk scoring",
+        "Interactive fraud visualization dashboards"
+      ],
+      "impact": "Potentially saving millions in tax revenue"
+    },
+    {
+      "title": "FoodBridge",
+      "subtitle": "Community-Driven Food Redistribution",
+      "description": "Social impact platform connecting food surplus with communities in need. Real-time matching, GPS tracking, and seamless donation coordination.",
+      "highlights": [
+        "Real-time location tracking & alerts",
+        "Connects households, restaurants & NGOs",
+        "Transparent community-driven sharing",
+        "Reduces food waste while fighting hunger"
+      ],
+      "impact": "1000+ meals donated, 40% waste reduction"
+    },
+    {
+      "title": "AI-Multimodal MEDI-INTERPRETER",
+      "subtitle": "AI-Powered Multimodal Medical Interpreter",
+      "description": "Advanced healthcare AI system that bridges doctor–patient communication gaps using multimodal intelligence. The platform processes multilingual voice, text, medical images, and facial emotions to assist in accurate skin disease analysis and clinical decision support.",
+      "highlights": [
+        "Trained on 30,000+ class-labeled skin disease images",
+        "Multi-class skin disease classification across 20+ conditions",
+        "Achieved ~75–85% validation accuracy after fine-tuning",
+        "Real-time multilingual speech-to-text & translation",
+        "Emotion-aware analysis for patient stress and severity detection",
+        "Automated remedies, causes, and treatment recommendations"
+      ],
+      "impact": "Enhances diagnostic accuracy, accessibility, and empathetic care in telemedicine, rural clinics, and multilingual healthcare environments"
+    }
+  ],
+  "achievements": [
+    "SMART INDIA HACKATHON 2025 (TOP 50)",
+    "TECH SCULPT EXPO 2025 (WINNER)",
+    "CIT SPARK GRANT 2025 (FINALIST)",
+    "THE BIG HACK 2025 (TOP 6)",
+    "TRIATHLON (AXIOS 2024) (FINALIST)",
+    "SCOUT CAPTAIN (AWARDED)"
+  ]
+}
