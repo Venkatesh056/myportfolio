@@ -465,11 +465,11 @@ const Portfolio = () => {
   const [contactStatus, setContactStatus] = useState({ loading: false, success: false, message: '' });
   const [statsAnimated, setStatsAnimated] = useState(false);
 
-  // EmailJS configuration from environment variables (CRA uses REACT_APP_ prefix)
+  // EmailJS configuration from environment variables (Vite uses VITE_ prefix)
   const emailJsConfig = {
-    serviceId: process.env.REACT_APP_EMAILJS_SERVICE_ID || '',
-    templateId: process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
-    userId: process.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
+    serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID || '',
+    templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID || '',
+    userId: import.meta.env.VITE_EMAILJS_PUBLIC_KEY || ''
   };
   const isEmailJsConfigured = Boolean(emailJsConfig.serviceId && emailJsConfig.templateId && emailJsConfig.userId);
 
@@ -1286,7 +1286,7 @@ const Portfolio = () => {
               </button>
               {!isEmailJsConfigured && (
                 <p className="contact-status contact-status-error">
-                  Configure EmailJS variables (REACT_APP_EMAILJS_SERVICE_ID, REACT_APP_EMAILJS_TEMPLATE_ID, REACT_APP_EMAILJS_PUBLIC_KEY) in .env to send messages.
+                  Configure EmailJS variables (VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY) in .env to send messages.
                 </p>
               )}
               {contactStatus.message && (
