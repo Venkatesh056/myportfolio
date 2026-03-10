@@ -3219,37 +3219,37 @@ a {
   transform-style: preserve-3d;
 }
 
-/* Fan positions - creates the spread effect */
+/* Fan positions - closely stacked spread effect */
 .fan-card-pos--2 {
-  transform: translateX(-420px) scale(0.7);
+  transform: translateX(-300px) scale(0.72);
   z-index: 1;
   filter: brightness(0.35) grayscale(0.7) blur(1px);
   opacity: 0.5;
 }
 
 .fan-card-pos--1 {
-  transform: translateX(-210px) scale(0.85);
+  transform: translateX(-155px) scale(0.86);
   z-index: 2;
   filter: brightness(0.7) grayscale(0.2);
   opacity: 0.8;
 }
 
 .fan-card-pos-0.fan-card-active {
-  transform: translateX(0) scale(1.15);
+  transform: translateX(0) scale(1.12);
   z-index: 10;
   filter: brightness(1.1) grayscale(0) drop-shadow(0 0 32px var(--accent-primary));
   opacity: 1;
 }
 
 .fan-card-pos-1 {
-  transform: translateX(210px) scale(0.85);
+  transform: translateX(155px) scale(0.86);
   z-index: 2;
   filter: brightness(0.7) grayscale(0.2);
   opacity: 0.8;
 }
 
 .fan-card-pos-2 {
-  transform: translateX(420px) scale(0.7);
+  transform: translateX(300px) scale(0.72);
   z-index: 1;
   filter: brightness(0.35) grayscale(0.7) blur(1px);
   opacity: 0.5;

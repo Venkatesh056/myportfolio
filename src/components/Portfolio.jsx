@@ -58,7 +58,9 @@ import {
   Target,
   Star,
   Stethoscope,
-  BookOpen
+  BookOpen,
+  BarChart2,
+  CreditCard
 } from 'lucide-react';
 import '../styles/Portfolio.css';
 import Chatbot from './Chatbot';
@@ -101,7 +103,7 @@ const services = [
 const projects = [
   {
     title: "MYTHOVERSE AI",
-    rank: 5,
+    rank: 6,
     github: "https://github.com/Venkatesh056/Story-Generation",
     subtitle: "AI-Powered Cultural World Mythology & Tamil Heritage Storytelling Engine ",
     icon: <BookOpen size={28} />,
@@ -130,7 +132,7 @@ const projects = [
   },
   {
     title: "TRI-BIOMETRIX",
-    rank: 2,
+    rank: 3,
     github: "https://github.com/Venkatesh056/TRI-BIOMETRIX",
     subtitle: "Next-Gen Multimodal Security Platform",
     icon: <Cpu size={28} />,
@@ -143,6 +145,25 @@ const projects = [
       "Banking, healthcare & smart surveillance ready"
     ],
     impact: "95% reduction in unauthorized access"
+  },
+  {
+    title: "UPI TRANSACTIONS DASHBOARD",
+    rank: 2,
+    github: "https://github.com/Venkatesh056/UPI-Dashboard",
+    subtitle: "Interactive Power BI Dashboard for Digital Payments Behavior, Channel Adoption & Risk Insights",
+    icon: <CreditCard size={28} />,
+    tech: ["Power BI", "DAX", "Power Query", "Data Modeling", "Excel/CSV", "Data Visualization"],
+    description:
+      "Designed and developed an interactive Power BI dashboard to analyze UPI-style digital payment transactions. The project transforms raw transactional datasets into meaningful insights by exploring transaction behavior, payment method adoption, customer demographics, verification metrics, and simulated fraud indicators through multi-page analytical dashboards.",
+    highlights: [
+      "Built a multi-page interactive dashboard analyzing transaction behavior, payment channels, and ecosystem performance",
+      "Implemented data modeling with multiple related datasets using TransactionID as the primary key",
+      "Developed advanced DAX measures including Success Rate, Verification Rate, Contact Coverage, and Fraud Indicators",
+      "Analyzed UPI app performance, QR payment adoption, and customer spending patterns",
+      "Created interactive visuals and KPIs to monitor transaction trends, regional performance, and risk signals"
+    ],
+    impact:
+      "Transformed complex digital payment transaction data into actionable insights, simulating real-world fintech analytics and operational monitoring"
   },
   {
     title: "NETRATAX",
@@ -161,8 +182,28 @@ const projects = [
     impact: "Potentially saving millions in tax revenue"
   },
   {
+    title: "BLINKIT SALES DASHBOARD",
+    rank: 4,
+    github: "https://github.com/Venkatesh056/Blikit---Dashboard",
+    subtitle: "Interactive Power BI Dashboard for Grocery Sales & Outlet Analytics",
+    icon: <BarChart2 size={28} />,
+    tech: ["Power BI", "DAX", "Power Query", "Microsoft Excel"],
+    description:
+      "Developed an interactive Power BI dashboard to analyze Blinkit's grocery sales performance across product categories, outlet types, and location tiers. The dashboard converts raw retail data into meaningful insights that help understand revenue drivers, customer preferences, and outlet performance trends.",
+    highlights: [
+      "Designed interactive dashboards with KPI cards and dynamic filters",
+      "Analyzed sales performance across outlet tiers and store types",
+      "Identified top-performing product categories and fat-content trends",
+      "Visualized outlet establishment growth over time",
+      "Built DAX measures for sales metrics and performance tracking",
+      "Enabled business insight discovery through data storytelling"
+    ],
+    impact:
+      "Transformed raw retail sales data into actionable insights that help understand customer behavior, product performance, and outlet profitability"
+  },
+  {
     title: "FoodBridge",
-    rank: 3,
+    rank: 5,
     github: "https://github.com/Venkatesh056/FoodBridge-",
     subtitle: "Community-Driven Food Redistribution",
     icon: <Users size={28} />,
@@ -178,7 +219,7 @@ const projects = [
   },
   {
     title: "AI-Multimodal MEDI-INTERPRETER",
-    rank: 4,
+    rank: 7,
     github: "https://github.com/Venkatesh056/AI-Multimodal-MEDI-INTERPRETER",
     subtitle: "AI-Powered Multimodal Medical Interpreter",
     icon: <Stethoscope size={28} />,
